@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 4dc6564b4d0995a45a6f91c9b21dbfde
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FuelPump_A
+    100002: FuelPump_B
+    100004: //RootNode
+    100006: GasStation_A_A
+    100008: GasStation_A_B
+    100010: GasStation_B_A
+    100012: GasStation_B_B
+    100014: PertolSign_A
+    100016: PertolSign_B
+    400000: FuelPump_A
+    400002: FuelPump_B
+    400004: //RootNode
+    400006: GasStation_A_A
+    400008: GasStation_A_B
+    400010: GasStation_B_A
+    400012: GasStation_B_B
+    400014: PertolSign_A
+    400016: PertolSign_B
+    2300000: FuelPump_A
+    2300002: FuelPump_B
+    2300004: GasStation_A_A
+    2300006: GasStation_A_B
+    2300008: GasStation_B_A
+    2300010: GasStation_B_B
+    2300012: PertolSign_A
+    2300014: PertolSign_B
+    3300000: FuelPump_A
+    3300002: FuelPump_B
+    3300004: GasStation_A_A
+    3300006: GasStation_A_B
+    3300008: GasStation_B_A
+    3300010: GasStation_B_B
+    3300012: PertolSign_A
+    3300014: PertolSign_B
+    4300000: GasStation_A_A
+    4300002: GasStation_B_A
+    4300004: PertolSign_B
+    4300006: PertolSign_A
+    4300008: FuelPump_A
+    4300010: GasStation_A_B
+    4300012: FuelPump_B
+    4300014: GasStation_B_B
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

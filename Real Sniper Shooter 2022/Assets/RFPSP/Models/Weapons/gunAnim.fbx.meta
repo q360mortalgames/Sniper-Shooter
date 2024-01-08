@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: da2d31775bf226741a5c6556305e0301
+timeCreated: 1493191598
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: All
+    100002: ArmMeshes
+    100004: ClipLocator
+    100006: ClipMesh
+    100008: FireLocator
+    100010: FireMesh
+    100012: GunAndRightArm
+    100014: //RootNode
+    100016: GunPosition
+    100018: HammerLocator
+    100020: HammerMesh
+    100022: LeftArmRoot
+    100024: LeftSwitchLocator
+    100026: LeftSwitchMesh
+    100028: MainMesh
+    100030: pasted__group
+    100032: pasted__pasted__group1
+    100034: pasted__pasted__pasted__Index1_LFT
+    100036: pasted__pasted__pasted__Index1_LFT1
+    100038: pasted__pasted__pasted__Index2_LFT
+    100040: pasted__pasted__pasted__Index2_LFT1
+    100042: pasted__pasted__pasted__Index3_LFT
+    100044: pasted__pasted__pasted__Index3_LFT1
+    100046: pasted__pasted__pasted__Index4_LFT
+    100048: pasted__pasted__pasted__Index4_LFT1
+    100050: pasted__pasted__pasted__Middle1_LFT
+    100052: pasted__pasted__pasted__Middle1_LFT1
+    100054: pasted__pasted__pasted__Middle2_LFT
+    100056: pasted__pasted__pasted__Middle2_LFT1
+    100058: pasted__pasted__pasted__Middle3_LFT
+    100060: pasted__pasted__pasted__Middle3_LFT1
+    100062: pasted__pasted__pasted__Middle4_LFT
+    100064: pasted__pasted__pasted__Middle4_LFT1
+    100066: pasted__pasted__pasted__Palm_LFT
+    100068: pasted__pasted__pasted__Palm_LFT1
+    100070: pasted__pasted__pasted__Pinky1_LFT
+    100072: pasted__pasted__pasted__Pinky1_LFT1
+    100074: pasted__pasted__pasted__Pinky2_LFT
+    100076: pasted__pasted__pasted__Pinky2_LFT1
+    100078: pasted__pasted__pasted__Pinky3_LFT
+    100080: pasted__pasted__pasted__Pinky3_LFT1
+    100082: pasted__pasted__pasted__Pinky4_LFT
+    100084: pasted__pasted__pasted__Pinky4_LFT1
+    100086: pasted__pasted__pasted__Ring1_LFT
+    100088: pasted__pasted__pasted__Ring1_LFT1
+    100090: pasted__pasted__pasted__Ring2_LFT
+    100092: pasted__pasted__pasted__Ring2_LFT1
+    100094: pasted__pasted__pasted__Ring3_LFT
+    100096: pasted__pasted__pasted__Ring3_LFT1
+    100098: pasted__pasted__pasted__Ring4_LFT
+    100100: pasted__pasted__pasted__Ring4_LFT1
+    100102: pasted__pasted__pasted__Thumb1_LFT
+    100104: pasted__pasted__pasted__Thumb1_LFT1
+    100106: pasted__pasted__pasted__Thumb2_LFT
+    100108: pasted__pasted__pasted__Thumb2_LFT1
+    100110: pasted__pasted__pasted__Thumb3_LFT
+    100112: pasted__pasted__pasted__Thumb3_LFT1
+    100114: pasted__pasted__pasted__Thumb4_LFT
+    100116: pasted__pasted__pasted__Thumb4_LFT1
+    100118: pasted__pasted__polySurface4
+    100120: pasted__pasted__polySurface6
+    100122: polySurface8
+    100124: polySurface9
+    100126: ReloadLocator
+    100128: ReloadMesh
+    100130: RightArmRoot
+    100132: RightHand
+    100134: 'RightSwitchLocator '
+    100136: RightSwitchMesh
+    100138: TopPartLocator
+    100140: TopPartMesh
+    100142: TriggerLocator
+    100144: TriggerMesh
+    400000: All
+    400002: ArmMeshes
+    400004: ClipLocator
+    400006: ClipMesh
+    400008: FireLocator
+    400010: FireMesh
+    400012: GunAndRightArm
+    400014: //RootNode
+    400016: GunPosition
+    400018: HammerLocator
+    400020: HammerMesh
+    400022: LeftArmRoot
+    400024: LeftSwitchLocator
+    400026: LeftSwitchMesh
+    400028: MainMesh
+    400030: pasted__group
+    400032: pasted__pasted__group1
+    400034: pasted__pasted__pasted__Index1_LFT
+    400036: pasted__pasted__pasted__Index1_LFT1
+    400038: pasted__pasted__pasted__Index2_LFT
+    400040: pasted__pasted__pasted__Index2_LFT1
+    400042: pasted__pasted__pasted__Index3_LFT
+    400044: pasted__pasted__pasted__Index3_LFT1
+    400046: pasted__pasted__pasted__Index4_LFT
+    400048: pasted__pasted__pasted__Index4_LFT1
+    400050: pasted__pasted__pasted__Middle1_LFT
+    400052: pasted__pasted__pasted__Middle1_LFT1
+    400054: pasted__pasted__pasted__Middle2_LFT
+    400056: pasted__pasted__pasted__Middle2_LFT1
+    400058: pasted__pasted__pasted__Middle3_LFT
+    400060: pasted__pasted__pasted__Middle3_LFT1
+    400062: pasted__pasted__pasted__Middle4_LFT
+    400064: pasted__pasted__pasted__Middle4_LFT1
+    400066: pasted__pasted__pasted__Palm_LFT
+    400068: pasted__pasted__pasted__Palm_LFT1
+    400070: pasted__pasted__pasted__Pinky1_LFT
+    400072: pasted__pasted__pasted__Pinky1_LFT1
+    400074: pasted__pasted__pasted__Pinky2_LFT
+    400076: pasted__pasted__pasted__Pinky2_LFT1
+    400078: pasted__pasted__pasted__Pinky3_LFT
+    400080: pasted__pasted__pasted__Pinky3_LFT1
+    400082: pasted__pasted__pasted__Pinky4_LFT
+    400084: pasted__pasted__pasted__Pinky4_LFT1
+    400086: pasted__pasted__pasted__Ring1_LFT
+    400088: pasted__pasted__pasted__Ring1_LFT1
+    400090: pasted__pasted__pasted__Ring2_LFT
+    400092: pasted__pasted__pasted__Ring2_LFT1
+    400094: pasted__pasted__pasted__Ring3_LFT
+    400096: pasted__pasted__pasted__Ring3_LFT1
+    400098: pasted__pasted__pasted__Ring4_LFT
+    400100: pasted__pasted__pasted__Ring4_LFT1
+    400102: pasted__pasted__pasted__Thumb1_LFT
+    400104: pasted__pasted__pasted__Thumb1_LFT1
+    400106: pasted__pasted__pasted__Thumb2_LFT
+    400108: pasted__pasted__pasted__Thumb2_LFT1
+    400110: pasted__pasted__pasted__Thumb3_LFT
+    400112: pasted__pasted__pasted__Thumb3_LFT1
+    400114: pasted__pasted__pasted__Thumb4_LFT
+    400116: pasted__pasted__pasted__Thumb4_LFT1
+    400118: pasted__pasted__polySurface4
+    400120: pasted__pasted__polySurface6
+    400122: polySurface8
+    400124: polySurface9
+    400126: ReloadLocator
+    400128: ReloadMesh
+    400130: RightArmRoot
+    400132: RightHand
+    400134: 'RightSwitchLocator '
+    400136: RightSwitchMesh
+    400138: TopPartLocator
+    400140: TopPartMesh
+    400142: TriggerLocator
+    400144: TriggerMesh
+    2300000: ClipMesh
+    2300002: FireMesh
+    2300004: HammerMesh
+    2300006: LeftSwitchMesh
+    2300008: MainMesh
+    2300010: ReloadMesh
+    2300012: RightSwitchMesh
+    2300014: TopPartMesh
+    2300016: TriggerMesh
+    3300000: ClipMesh
+    3300002: FireMesh
+    3300004: HammerMesh
+    3300006: LeftSwitchMesh
+    3300008: MainMesh
+    3300010: ReloadMesh
+    3300012: RightSwitchMesh
+    3300014: TopPartMesh
+    3300016: TriggerMesh
+    4300000: polySurface8
+    4300002: polySurface9
+    4300004: TriggerMesh
+    4300006: FireMesh
+    4300008: ReloadMesh
+    4300010: ClipMesh
+    4300012: HammerMesh
+    4300014: LeftSwitchMesh
+    4300016: RightSwitchMesh
+    4300018: TopPartMesh
+    4300020: MainMesh
+    7400000: Ready
+    7400002: Fire
+    7400004: Reload
+    7400006: melee
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: polySurface8
+    13700002: polySurface9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ready
+      takeName: Take 001
+      firstFrame: 111
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: All
+        weight: 1
+      - path: All/GunAndRightArm
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator/ClipMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator/FireMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator/HammerMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/MainMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator/ReloadMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator/LeftSwitchMesh
+        weight: 1
+      - path: 'All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator '
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator
+          /RightSwitchMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/TopPartMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator/TriggerMesh
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1/pasted__pasted__pasted__Index4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1/pasted__pasted__pasted__Middle4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1/pasted__pasted__pasted__Pinky4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1/pasted__pasted__pasted__Ring4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1/pasted__pasted__pasted__Thumb4_LFT1
+        weight: 1
+      - path: All/LeftArmRoot
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT/pasted__pasted__pasted__Index4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT/pasted__pasted__pasted__Middle4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT/pasted__pasted__pasted__Pinky4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT/pasted__pasted__pasted__Ring4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT/pasted__pasted__pasted__Thumb4_LFT
+        weight: 1
+      - path: ArmMeshes
+        weight: 1
+      - path: ArmMeshes/pasted__group
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__group1
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface8
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface9
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: All
+        weight: 1
+      - path: All/GunAndRightArm
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator/ClipMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator/FireMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator/HammerMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/MainMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator/ReloadMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator/LeftSwitchMesh
+        weight: 1
+      - path: 'All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator '
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator
+          /RightSwitchMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/TopPartMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator/TriggerMesh
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1/pasted__pasted__pasted__Index4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1/pasted__pasted__pasted__Middle4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1/pasted__pasted__pasted__Pinky4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1/pasted__pasted__pasted__Ring4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1/pasted__pasted__pasted__Thumb4_LFT1
+        weight: 1
+      - path: All/LeftArmRoot
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT/pasted__pasted__pasted__Index4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT/pasted__pasted__pasted__Middle4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT/pasted__pasted__pasted__Pinky4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT/pasted__pasted__pasted__Ring4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT/pasted__pasted__pasted__Thumb4_LFT
+        weight: 1
+      - path: ArmMeshes
+        weight: 1
+      - path: ArmMeshes/pasted__group
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__group1
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface8
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface9
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload
+      takeName: Take 001
+      firstFrame: 46
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: All
+        weight: 1
+      - path: All/GunAndRightArm
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator/ClipMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator/FireMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator/HammerMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/MainMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator/ReloadMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator/LeftSwitchMesh
+        weight: 1
+      - path: 'All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator '
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator
+          /RightSwitchMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/TopPartMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator/TriggerMesh
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1/pasted__pasted__pasted__Index4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1/pasted__pasted__pasted__Middle4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1/pasted__pasted__pasted__Pinky4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1/pasted__pasted__pasted__Ring4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1/pasted__pasted__pasted__Thumb4_LFT1
+        weight: 1
+      - path: All/LeftArmRoot
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT/pasted__pasted__pasted__Index4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT/pasted__pasted__pasted__Middle4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT/pasted__pasted__pasted__Pinky4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT/pasted__pasted__pasted__Ring4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT/pasted__pasted__pasted__Thumb4_LFT
+        weight: 1
+      - path: ArmMeshes
+        weight: 1
+      - path: ArmMeshes/pasted__group
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__group1
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface8
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface9
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: melee
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 176
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: All
+        weight: 1
+      - path: All/GunAndRightArm
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ClipLocator/ClipMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/FireLocator/FireMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/HammerLocator/HammerMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/MainMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/ReloadLocator/ReloadMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/LeftSwitchLocator/LeftSwitchMesh
+        weight: 1
+      - path: 'All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator '
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/RightSwitchLocator
+          /RightSwitchMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TopPartLocator/TopPartMesh
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator
+        weight: 1
+      - path: All/GunAndRightArm/GunPosition/RightHand/TriggerLocator/TriggerMesh
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Index1_LFT1/pasted__pasted__pasted__Index2_LFT1/pasted__pasted__pasted__Index3_LFT1/pasted__pasted__pasted__Index4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Middle1_LFT1/pasted__pasted__pasted__Middle2_LFT1/pasted__pasted__pasted__Middle3_LFT1/pasted__pasted__pasted__Middle4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Pinky1_LFT1/pasted__pasted__pasted__Pinky2_LFT1/pasted__pasted__pasted__Pinky3_LFT1/pasted__pasted__pasted__Pinky4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Ring1_LFT1/pasted__pasted__pasted__Ring2_LFT1/pasted__pasted__pasted__Ring3_LFT1/pasted__pasted__pasted__Ring4_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1
+        weight: 1
+      - path: All/GunAndRightArm/RightArmRoot/pasted__pasted__pasted__Palm_LFT1/pasted__pasted__pasted__Thumb1_LFT1/pasted__pasted__pasted__Thumb2_LFT1/pasted__pasted__pasted__Thumb3_LFT1/pasted__pasted__pasted__Thumb4_LFT1
+        weight: 1
+      - path: All/LeftArmRoot
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Index1_LFT/pasted__pasted__pasted__Index2_LFT/pasted__pasted__pasted__Index3_LFT/pasted__pasted__pasted__Index4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Middle1_LFT/pasted__pasted__pasted__Middle2_LFT/pasted__pasted__pasted__Middle3_LFT/pasted__pasted__pasted__Middle4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Pinky1_LFT/pasted__pasted__pasted__Pinky2_LFT/pasted__pasted__pasted__Pinky3_LFT/pasted__pasted__pasted__Pinky4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Ring1_LFT/pasted__pasted__pasted__Ring2_LFT/pasted__pasted__pasted__Ring3_LFT/pasted__pasted__pasted__Ring4_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT
+        weight: 1
+      - path: All/LeftArmRoot/pasted__pasted__pasted__Palm_LFT/pasted__pasted__pasted__Thumb1_LFT/pasted__pasted__pasted__Thumb2_LFT/pasted__pasted__pasted__Thumb3_LFT/pasted__pasted__pasted__Thumb4_LFT
+        weight: 1
+      - path: ArmMeshes
+        weight: 1
+      - path: ArmMeshes/pasted__group
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__group1
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface8
+        weight: 1
+      - path: ArmMeshes/pasted__group/pasted__pasted__polySurface4/pasted__pasted__polySurface6/polySurface9
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

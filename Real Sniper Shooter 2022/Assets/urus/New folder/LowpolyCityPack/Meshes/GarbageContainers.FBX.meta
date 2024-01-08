@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 47133db0444fb96498938600122552e9
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: GarbageCan_A
+    100002: GarbageCan_B
+    100004: GarbageContainer_A
+    100006: GarbageContainer_A_Door
+    100008: GarbageContainer_B
+    100010: GarbageContainer_B_Door
+    100012: GarbageContainer_C
+    100014: GarbageContainer_D
+    100016: //RootNode
+    400000: GarbageCan_A
+    400002: GarbageCan_B
+    400004: GarbageContainer_A
+    400006: GarbageContainer_A_Door
+    400008: GarbageContainer_B
+    400010: GarbageContainer_B_Door
+    400012: GarbageContainer_C
+    400014: GarbageContainer_D
+    400016: //RootNode
+    2300000: GarbageCan_A
+    2300002: GarbageCan_B
+    2300004: GarbageContainer_A
+    2300006: GarbageContainer_A_Door
+    2300008: GarbageContainer_B
+    2300010: GarbageContainer_B_Door
+    2300012: GarbageContainer_C
+    2300014: GarbageContainer_D
+    3300000: GarbageCan_A
+    3300002: GarbageCan_B
+    3300004: GarbageContainer_A
+    3300006: GarbageContainer_A_Door
+    3300008: GarbageContainer_B
+    3300010: GarbageContainer_B_Door
+    3300012: GarbageContainer_C
+    3300014: GarbageContainer_D
+    4300000: GarbageContainer_D
+    4300002: GarbageContainer_A
+    4300004: GarbageContainer_A_Door
+    4300006: GarbageCan_B
+    4300008: GarbageCan_A
+    4300010: GarbageContainer_B
+    4300012: GarbageContainer_B_Door
+    4300014: GarbageContainer_C
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

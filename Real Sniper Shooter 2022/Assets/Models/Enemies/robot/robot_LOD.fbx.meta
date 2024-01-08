@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 968531b8de6c8684aa1bf5d3e6b57dc5
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle_lf_jnt
+    100002: ankle_rt_jnt
+    100004: armpistonA_lf_up_aim_jnt
+    100006: armpistonA_rt_up_aim_jnt
+    100008: armpistonB_lf_up_aim_jnt
+    100010: armpistonB_rt_up_aim_jnt
+    100012: ball_lf_jnt
+    100014: ball_rt_jnt
+    100016: bicep_lf_jnt
+    100018: bicep_rt_jnt
+    100020: body_jnt
+    100022: elbow_lf_jnt
+    100024: elbow_rt_jnt
+    100026: elbowext_lf_jnt
+    100028: elbowext_rt_jnt
+    100030: fingerA1_lf_jnt
+    100032: fingerB1_lf_jnt
+    100034: fingerC1_lf_jnt
+    100036: head_jnt
+    100038: heel_lf_jnt
+    100040: heel_rt_jnt
+    100042: hip_lf_jnt
+    100044: hip_rt_jnt
+    100046: knee1_lf_jnt
+    100048: knee1_rt_jnt
+    100050: knee2_lf_jnt
+    100052: knee2_rt_jnt
+    100054: kneepiston_lf_jnt
+    100056: kneepiston_rt_jnt
+    100058: legpiston_lf_dn_aim_jnt
+    100060: legpiston_lf_up_aim_jnt
+    100062: legpiston_lf_up_CON_jnt
+    100064: legpiston_rt_dn_aim_jnt
+    100066: legpiston_rt_up_aim_jnt
+    100068: legpiston_rt_up_CON_jnt
+    100070: pelvis_jnt
+    100072: persp1Shape
+    100074: perspShape
+    100076: //RootNode
+    100078: robotCOG
+    100080: robotmeshLOD
+    100082: robotmeshLODShape
+    100084: robotmeshLODShape 1
+    100086: shdr_lf_jnt
+    100088: shdr_rt_jnt
+    100090: shdrpistonA_lf_up_aim_jnt
+    100092: shdrpistonA_rt_up_aim_jnt
+    100094: shdrpistonB_lf_up_aim_jnt
+    100096: shdrpistonB_rt_up_aim_jnt
+    100098: shdrpistonC_lf_up_aim_jnt
+    100100: shdrpistonC_rt_up_aim_jnt
+    100102: thumb1_lf_jnt
+    100104: waist_jnt
+    100106: wrist1_lf_jnt
+    100108: wrist2_lf_jnt
+    400000: ankle_lf_jnt
+    400002: ankle_rt_jnt
+    400004: armpistonA_lf_up_aim_jnt
+    400006: armpistonA_rt_up_aim_jnt
+    400008: armpistonB_lf_up_aim_jnt
+    400010: armpistonB_rt_up_aim_jnt
+    400012: ball_lf_jnt
+    400014: ball_rt_jnt
+    400016: bicep_lf_jnt
+    400018: bicep_rt_jnt
+    400020: body_jnt
+    400022: elbow_lf_jnt
+    400024: elbow_rt_jnt
+    400026: elbowext_lf_jnt
+    400028: elbowext_rt_jnt
+    400030: fingerA1_lf_jnt
+    400032: fingerB1_lf_jnt
+    400034: fingerC1_lf_jnt
+    400036: head_jnt
+    400038: heel_lf_jnt
+    400040: heel_rt_jnt
+    400042: hip_lf_jnt
+    400044: hip_rt_jnt
+    400046: knee1_lf_jnt
+    400048: knee1_rt_jnt
+    400050: knee2_lf_jnt
+    400052: knee2_rt_jnt
+    400054: kneepiston_lf_jnt
+    400056: kneepiston_rt_jnt
+    400058: legpiston_lf_dn_aim_jnt
+    400060: legpiston_lf_up_aim_jnt
+    400062: legpiston_lf_up_CON_jnt
+    400064: legpiston_rt_dn_aim_jnt
+    400066: legpiston_rt_up_aim_jnt
+    400068: legpiston_rt_up_CON_jnt
+    400070: pelvis_jnt
+    400072: persp1Shape
+    400074: perspShape
+    400076: //RootNode
+    400078: robotCOG
+    400080: robotmeshLOD
+    400082: robotmeshLODShape
+    400084: robotmeshLODShape 1
+    400086: shdr_lf_jnt
+    400088: shdr_rt_jnt
+    400090: shdrpistonA_lf_up_aim_jnt
+    400092: shdrpistonA_rt_up_aim_jnt
+    400094: shdrpistonB_lf_up_aim_jnt
+    400096: shdrpistonB_rt_up_aim_jnt
+    400098: shdrpistonC_lf_up_aim_jnt
+    400100: shdrpistonC_rt_up_aim_jnt
+    400102: thumb1_lf_jnt
+    400104: waist_jnt
+    400106: wrist1_lf_jnt
+    400108: wrist2_lf_jnt
+    4300000: robotmeshLODShape
+    7400000: DefaultAnim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: robotmeshLODShape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

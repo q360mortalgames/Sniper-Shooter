@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RopeSurferRoad-3
+  m_Shader: {fileID: 4800000, guid: dcd9fd62960ead043a7540cfc5eb3723, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5de534607343d61489dcea77af19a0af, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1.09057486, y: 1.09057486}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 2800000, guid: 28b497e254231484cabac19bc37f6f78, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: -.54528743, y: -.54528743}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Emi1
+        second:
+          m_Texture: {fileID: 2800000, guid: 28b497e254231484cabac19bc37f6f78, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Prlx
+        second:
+          m_Texture: {fileID: 2800000, guid: 60ec13128644e1d47951f69de8b18f42, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Emi2
+        second:
+          m_Texture: {fileID: 2800000, guid: 28b497e254231484cabac19bc37f6f78, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PrlxMsk
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .483928561
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _InvFade
+        second: 1.64071429
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _RimPower
+        second: 27.1800003
+      data:
+        first:
+          name: _WindEdgeFlutterFreqScale
+        second: 12.1599998
+      data:
+        first:
+          name: _FadeOutDistFar
+        second: 0
+      data:
+        first:
+          name: _ReplaySpeed
+        second: 3
+      data:
+        first:
+          name: _Bias
+        second: 4
+      data:
+        first:
+          name: _bright
+        second: .267857134
+      data:
+        first:
+          name: _inv1
+        second: 0
+      data:
+        first:
+          name: _Alpha1
+        second: .803571343
+      data:
+        first:
+          name: _invAlpha1
+        second: .75
+      data:
+        first:
+          name: _prl1
+        second: .607142866
+      data:
+        first:
+          name: _Dist
+        second: 120.260002
+      data:
+        first:
+          name: _TimeOffDuration
+        second: 0
+      data:
+        first:
+          name: _SizeGrowStartDist
+        second: 5
+      data:
+        first:
+          name: _MaxGrowSize
+        second: .660714328
+      data:
+        first:
+          name: _inv2
+        second: .107142858
+      data:
+        first:
+          name: _Alpha2
+        second: .553571463
+      data:
+        first:
+          name: _invAlpha2
+        second: .25
+      data:
+        first:
+          name: _prl2
+        second: .767857134
+      data:
+        first:
+          name: _AS
+        second: 0
+      data:
+        first:
+          name: _MD
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .492647052, g: .492647052, b: .492647052, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .485294104, g: .485294104, b: .485294104, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .345588207, g: .345588207, b: .345588207, a: .501960814}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .5}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .800000012, g: .800000012, b: .800000012, a: .600000024}
+      data:
+        first:
+          name: _SColor
+        second: {r: .110294104, g: .110294104, b: .110294104, a: 1}
+      data:
+        first:
+          name: _LColor
+        second: {r: .529411793, g: .529411793, b: .529411793, a: 1}
+      data:
+        first:
+          name: _NumTexTiles
+        second: {r: 1, g: 1.20000005, b: 2, a: 2}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Pan1
+        second: {r: 1.55999994, g: 1.08000004, b: .699999988, a: 0}
+      data:
+        first:
+          name: _Rot1
+        second: {r: .5, g: .5, b: 0, a: 0}
+      data:
+        first:
+          name: _PanPrlx
+        second: {r: .600000024, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _RotPrlx
+        second: {r: .5, g: .5, b: 0, a: 0}
+      data:
+        first:
+          name: _QOffset
+        second: {r: -2.78999996, g: -.100000001, b: -8.14999962, a: -.419999987}
+      data:
+        first:
+          name: _Pan2
+        second: {r: 1.80999994, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Rot2
+        second: {r: .5, g: .5, b: 0, a: 0}
+      data:
+        first:
+          name: _PanPrlxMsk
+        second: {r: 0, g: 0, b: 0, a: 0}

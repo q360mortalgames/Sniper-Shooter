@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 6babc7303f31a5a40b8e87855d77fa04
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ConcretePipe_A
+    100002: ConcretePipe_B
+    100004: ConcretePipe_C
+    100006: Pipe_A
+    100008: Pipe_B
+    100010: Pipe_C
+    100012: Pipe_D
+    100014: Pipe_E
+    100016: Pipe_F
+    100018: Pipe_G
+    100020: //RootNode
+    100022: PpeStand_A
+    100024: PpeStand_B
+    100026: PpeStand_C
+    400000: ConcretePipe_A
+    400002: ConcretePipe_B
+    400004: ConcretePipe_C
+    400006: Pipe_A
+    400008: Pipe_B
+    400010: Pipe_C
+    400012: Pipe_D
+    400014: Pipe_E
+    400016: Pipe_F
+    400018: Pipe_G
+    400020: //RootNode
+    400022: PpeStand_A
+    400024: PpeStand_B
+    400026: PpeStand_C
+    2300000: ConcretePipe_A
+    2300002: ConcretePipe_B
+    2300004: ConcretePipe_C
+    2300006: Pipe_A
+    2300008: Pipe_B
+    2300010: Pipe_C
+    2300012: Pipe_D
+    2300014: Pipe_E
+    2300016: Pipe_F
+    2300018: Pipe_G
+    2300020: PpeStand_A
+    2300022: PpeStand_B
+    2300024: PpeStand_C
+    3300000: ConcretePipe_A
+    3300002: ConcretePipe_B
+    3300004: ConcretePipe_C
+    3300006: Pipe_A
+    3300008: Pipe_B
+    3300010: Pipe_C
+    3300012: Pipe_D
+    3300014: Pipe_E
+    3300016: Pipe_F
+    3300018: Pipe_G
+    3300020: PpeStand_A
+    3300022: PpeStand_B
+    3300024: PpeStand_C
+    4300000: Pipe_G
+    4300002: Pipe_A
+    4300004: Pipe_B
+    4300006: Pipe_D
+    4300008: Pipe_C
+    4300010: Pipe_E
+    4300012: Pipe_F
+    4300014: PpeStand_A
+    4300016: PpeStand_B
+    4300018: ConcretePipe_B
+    4300020: ConcretePipe_A
+    4300022: ConcretePipe_C
+    4300024: PpeStand_C
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

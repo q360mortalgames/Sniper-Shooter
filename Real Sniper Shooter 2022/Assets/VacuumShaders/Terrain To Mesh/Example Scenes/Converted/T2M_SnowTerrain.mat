@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: T2M_SnowTerrain
+  m_Shader: {fileID: 4800000, guid: 414efc8f83135aa47807d1aa5caf0b50, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_CW_Control
+      second:
+        m_Texture: {fileID: 2800000, guid: 1842ced3dc4b7994bbbd14a2158a4e8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_CW_Splat1
+      second:
+        m_Texture: {fileID: 2800000, guid: 851e7f835c3184c4d9ff5cb9db163b2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_CW_Splat2
+      second:
+        m_Texture: {fileID: 2800000, guid: 92e8bc505b75c3b4cad1d0d5047b9f92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_CW_Splat3
+      second:
+        m_Texture: {fileID: 2800000, guid: 66ed9e18026344748a3a042a4f09831e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_CW_Splat4
+      second:
+        m_Texture: {fileID: 2800000, guid: 2bb813ecd53808844b1dd2b8b65d379a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Control
+      second:
+        m_Texture: {fileID: 2800000, guid: 1842ced3dc4b7994bbbd14a2158a4e8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Control2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat1
+      second:
+        m_Texture: {fileID: 2800000, guid: 851e7f835c3184c4d9ff5cb9db163b2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat1_bumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 711b49db057d9a742bbb511e3abe1929, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat2
+      second:
+        m_Texture: {fileID: 2800000, guid: 92e8bc505b75c3b4cad1d0d5047b9f92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat2_bumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a4414ab975e6f5d41bded65f82390a5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat3
+      second:
+        m_Texture: {fileID: 2800000, guid: 66ed9e18026344748a3a042a4f09831e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat3_bumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 8be28e486a214d349ad1fc5079ff9df5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat4
+      second:
+        m_Texture: {fileID: 2800000, guid: 2bb813ecd53808844b1dd2b8b65d379a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat4_bumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 11bbcd51adcfb244c83205d241a000b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat5
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat6
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _V_T2M_Splat7
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Glossiness
+      second: 0.2
+    - first:
+        name: _Metallic
+      second: 0.1
+    - first:
+        name: _Shininess
+      second: 0.078125
+    - first:
+        name: _V_CW_Splat1_uvScale
+      second: 50
+    - first:
+        name: _V_CW_Splat2_uvScale
+      second: 50
+    - first:
+        name: _V_CW_Splat3_uvScale
+      second: 15
+    - first:
+        name: _V_CW_Splat4_uvScale
+      second: 50
+    - first:
+        name: _V_T2M_Splat1_uvScale
+      second: 50
+    - first:
+        name: _V_T2M_Splat2_uvScale
+      second: 50
+    - first:
+        name: _V_T2M_Splat3_uvScale
+      second: 15
+    - first:
+        name: _V_T2M_Splat4_uvScale
+      second: 50
+    - first:
+        name: _V_T2M_Splat5_uvScale
+      second: 1
+    - first:
+        name: _V_T2M_Splat6_uvScale
+      second: 1
+    - first:
+        name: _V_T2M_Splat7_uvScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

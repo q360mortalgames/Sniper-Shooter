@@ -1,0 +1,59 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+public class LevelButton : MonoBehaviour,IPointerClickHandler {
+	public Text LevelText;
+    [HideInInspector]
+	public int LevelNum;
+	public GameObject Lock;
+
+    public int ThemeToLoad;
+    public GameObject ActiveBtn, UnlockBtn;
+	void Start () 
+	{
+//		PlayerPrefs.SetInt ("LevelsUnlocked", 1);
+
+
+		if(!PlayerPrefs.HasKey ("LevelsUnlocked"))
+		{
+			PlayerPrefs.SetInt ("LevelsUnlocked", 1);
+
+		}
+		string Levelstr=transform.name.Substring (7, 2);
+		if (Levelstr.Contains (")")) {
+			Levelstr= Levelstr.Remove (1);
+		}
+		LevelNum = int.Parse(Levelstr);
+		LevelText.text ="Mission "+LevelNum.ToString ();
+		if (LevelNum <= PlayerPrefs.GetInt ("LevelsUnlocked"))
+		{
+			Lock.SetActive (false);
+		}
+	}
+	
+	
+	public void OnPointerClick(PointerEventData eventData)
+	{
+        if (LevelNum <= PlayerPrefs.GetInt("LevelsUnlocked"))
+        {
+            PlayerPrefs.SetInt("SelectedLevel", LevelNum);
+           
+                Loading.LevelToLoad = "Theme"+ThemeToLoad;
+                Application.LoadLevel("Loading");
+
+            
+            //else
+            //{
+            //    Loading.LevelToLoad = "Theme2";
+            //    Application.LoadLevel("Loading");
+
+            //}
+        }
+        else
+        {
+            AdManager.instance.BuyItem(2, true);
+        }
+	}
+}

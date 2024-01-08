@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 62c7b990d3d534d4d8bf3413fdc84839
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel_A
+    100002: Barrel_B
+    100004: CardboardBox_A
+    100006: CardboardBox_B
+    100008: CargoContainer_A
+    100010: CargoContainer_B
+    100012: CargoContainerDoor
+    100014: CargoContainerDoor 1
+    100016: CargoContainerDoor 2
+    100018: CargoContainerDoor 3
+    100020: CargoContainerDoor 4
+    100022: CargoContainerDoor 5
+    100024: CargoContainerDoor 6
+    100026: CargoContainerDoor 7
+    100028: //RootNode
+    100030: Palet
+    100032: Spool_A
+    100034: Spool_B
+    100036: WoodBox_A
+    100038: WoodBox_B
+    100040: WoodBox_C
+    100042: WoodBox_D
+    400000: Barrel_A
+    400002: Barrel_B
+    400004: CardboardBox_A
+    400006: CardboardBox_B
+    400008: CargoContainer_A
+    400010: CargoContainer_B
+    400012: CargoContainerDoor
+    400014: CargoContainerDoor 1
+    400016: CargoContainerDoor 2
+    400018: CargoContainerDoor 3
+    400020: CargoContainerDoor 4
+    400022: CargoContainerDoor 5
+    400024: CargoContainerDoor 6
+    400026: CargoContainerDoor 7
+    400028: //RootNode
+    400030: Palet
+    400032: Spool_A
+    400034: Spool_B
+    400036: WoodBox_A
+    400038: WoodBox_B
+    400040: WoodBox_C
+    400042: WoodBox_D
+    2300000: Barrel_A
+    2300002: Barrel_B
+    2300004: CardboardBox_A
+    2300006: CardboardBox_B
+    2300008: CargoContainer_A
+    2300010: CargoContainer_B
+    2300012: CargoContainerDoor
+    2300014: CargoContainerDoor 1
+    2300016: CargoContainerDoor 2
+    2300018: CargoContainerDoor 3
+    2300020: CargoContainerDoor 4
+    2300022: CargoContainerDoor 5
+    2300024: CargoContainerDoor 6
+    2300026: CargoContainerDoor 7
+    2300028: Palet
+    2300030: Spool_A
+    2300032: Spool_B
+    2300034: WoodBox_A
+    2300036: WoodBox_B
+    2300038: WoodBox_C
+    2300040: WoodBox_D
+    3300000: Barrel_A
+    3300002: Barrel_B
+    3300004: CardboardBox_A
+    3300006: CardboardBox_B
+    3300008: CargoContainer_A
+    3300010: CargoContainer_B
+    3300012: CargoContainerDoor
+    3300014: CargoContainerDoor 1
+    3300016: CargoContainerDoor 2
+    3300018: CargoContainerDoor 3
+    3300020: CargoContainerDoor 4
+    3300022: CargoContainerDoor 5
+    3300024: CargoContainerDoor 6
+    3300026: CargoContainerDoor 7
+    3300028: Palet
+    3300030: Spool_A
+    3300032: Spool_B
+    3300034: WoodBox_A
+    3300036: WoodBox_B
+    3300038: WoodBox_C
+    3300040: WoodBox_D
+    4300000: Barrel_A
+    4300002: CargoContainer_A
+    4300004: CargoContainerDoor
+    4300006: CargoContainerDoor
+    4300008: CargoContainerDoor
+    4300010: CargoContainerDoor
+    4300012: Palet
+    4300014: CardboardBox_A
+    4300016: WoodBox_C
+    4300018: WoodBox_B
+    4300020: WoodBox_A
+    4300022: WoodBox_D
+    4300024: CargoContainer_B
+    4300026: CargoContainerDoor
+    4300028: CargoContainerDoor
+    4300030: CargoContainerDoor
+    4300032: CargoContainerDoor
+    4300034: Barrel_B
+    4300036: Spool_A
+    4300038: Spool_B
+    4300040: CardboardBox_B
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 25f4b23ada9378243964c2e08a67db13
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AddPanel_A_A
+    100002: AddPanel_A_B
+    100004: AddPanel_B_A
+    100006: AddPanel_B_B
+    100008: AddPanel_C_A
+    100010: AddPanel_C_B
+    100012: AddPanel_D_A
+    100014: AddPanel_D_B
+    100016: AddPanel_E_A
+    100018: AddPanel_E_B
+    100020: //RootNode
+    400000: AddPanel_A_A
+    400002: AddPanel_A_B
+    400004: AddPanel_B_A
+    400006: AddPanel_B_B
+    400008: AddPanel_C_A
+    400010: AddPanel_C_B
+    400012: AddPanel_D_A
+    400014: AddPanel_D_B
+    400016: AddPanel_E_A
+    400018: AddPanel_E_B
+    400020: //RootNode
+    2300000: AddPanel_A_A
+    2300002: AddPanel_A_B
+    2300004: AddPanel_B_A
+    2300006: AddPanel_B_B
+    2300008: AddPanel_C_A
+    2300010: AddPanel_C_B
+    2300012: AddPanel_D_A
+    2300014: AddPanel_D_B
+    2300016: AddPanel_E_A
+    2300018: AddPanel_E_B
+    3300000: AddPanel_A_A
+    3300002: AddPanel_A_B
+    3300004: AddPanel_B_A
+    3300006: AddPanel_B_B
+    3300008: AddPanel_C_A
+    3300010: AddPanel_C_B
+    3300012: AddPanel_D_A
+    3300014: AddPanel_D_B
+    3300016: AddPanel_E_A
+    3300018: AddPanel_E_B
+    4300000: AddPanel_A_B
+    4300002: AddPanel_A_A
+    4300004: AddPanel_B_A
+    4300006: AddPanel_B_B
+    4300008: AddPanel_C_A
+    4300010: AddPanel_D_A
+    4300012: AddPanel_D_B
+    4300014: AddPanel_C_B
+    4300016: AddPanel_E_A
+    4300018: AddPanel_E_B
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

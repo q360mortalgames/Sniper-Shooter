@@ -1,0 +1,94 @@
+**************************************
+CHANGELOG (v3 and above)
+**************************************
+
+v4.0.2
+- fixed message position field resetting on bezierMove
+- splineMove, navMove: changed currentPoint index not resetting when
+  calling Stop(), currentPoint now only resets when calling ResetMove()
+- added HOTween's new 2D option to orientToPath enumerator
+- HOTween updated to 1.3.320
+
+v4.0.1
+- added missing Undo functionality for bezier paths
+- exposed button for adding new waypoints at the last waypoint
+- fixed error in WaypointEditor without active scene view
+- fixed crash when calling StartMove() at the last waypoint
+- movement index (currentPoint) now correctly resets when calling Stop()
+
+v4.0
+NOT BACKWARDS COMPATIBLE
+- NavMesh Agent movement script added
+- Mecanim Animator Controller support 
+- Rewrite of custom inspectors to reveal context relevant variables
+- Bezier paths now inherit from standard paths to be interchangeable
+- Recreated example scenes with more samples
+- Restructure of project and scripts to be more modular
+- Added all base scripts to namespace to get rid of conflicts
+- Rewrite of documentation including quick start
+- Scripting Reference generated 
+- Various enhancements and fixes
+- HOTween updated to 1.3.000
+
+v3.2
+-  hoMove: configurable starting point (does not work with looptype random) 
+-  hoMoveMinimal: new performance efficient version of hoMove, without 
+messages, delays and looptype random. Does not use partial paths  
+-  New example scenes: camera flythrough & rapid input (see webplayer) 
+-  New FX script: PathIndicator component spawns particles along a path  
+-  Experimental: new components MoveRenderer & PathRenderer allow 
+rendering of tweens (hoMove) or paths (PathManager) at runtime by using 
+Line Renderers 
+-  Project restructured for easier browsing (Assets, Examples, Plugins, Scripts) 
+-  “Place to Ground” setting on path managers works with 2D and 3D colliders 
+-  hoMove: fixed triggering of messages at the last waypoint 
+
+v3.1.1
+-  Waypoint Manager: 2D Mode added for dedicated waypoint placement in 2D 
+-  PlayMaker: added addon package with more than 10 new custom actions for
+controlling different aspects of paths and walker objects, a sample scene that
+demonstrates them and better documentation about all custom actions 
+
+v3.1
+-  Complete rewrite of bezier paths. Now they fully work in 3D: You can move, 
+rotate or do other fancy stuff with them at runtime – instantiation works too 
+-  Path components now draw handlers for waypoints for repositioning them 
+without the need to actually select them 
+-  iMove/hoMove: fixed null reference when calling Reset() before StartMove() 
+-  hoMove/bezierMove: fixed weird rotation on using orientToPath+LockAxis 
+-  Path components: re-visited waypoint naming and forced to array order 
+-  Path components: gizmo and line drawing moved to WaypointManager 
+-  WaypointManager: changed path buttons to selection field for path type 
+-  Scripts: added “About” window to Window > Simple Waypoint System 
+-  Scripts: added Undo functionality for Unity 4.3.x 
+-  PlayMaker support: added SetPath action for bezier paths (SetBezierPath) 
+-  Example Scenes: re-created Example_Bezier 
+
+v3.0.3
+-  hoMove: fixed bug where stopping movement at a waypoint could potentially stop 
+executing other messages 
+-  iMove: fixed Stop() method 
+
+v3.0.2
+-  hoMove: fixed Exception when destroying tween while moving via Stop() 
+-  WaypointManager.cs: added waypoint renaming scheme on path creation 
+-  PathManager, BezierPathManager: gizmos consider new waypoint names 
+
+v3.0.1
+-  hoMove: fixed NullReferenceException when accessing an empty tween 
+
+v3.0
+-  Bezier paths! (only 2D - x,z axis -  for now) 
+-  At the cost of some movement settings, bezier paths give you more control 
+over the shape of your path: drag small handlers per waypoint in order to 
+further define the curves 
+-  WaypointManager: now creates normal or bezier paths 
+-  BezierPathManager, BezierPathEditor and bezierMove scripts added 
+-  bezierMove can trigger messages anywhere on the path, at a given 
+percentage – not restricted to waypoint positions 
+-  New example scene “Example_Bezier” 
+-  WaypointEditor: changed waypoint placement combination from alt + mouse  
+-  click to keyboard key ‘P’. Auto-focuses scene view when starting a new path  
+-  hoMove: fixed an issue where Pause() + Resume() could affect other tweens  
+-  hoMove: added slot for an animation curve when using a custom easetype 
+-  HOTween: updated to v1.1.727

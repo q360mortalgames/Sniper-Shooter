@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: 8b556c6d9158ea74b8f31b1a3b3c2a53
+timeCreated: 1478081109
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: casual18_m_highpoly:_notused_Bip01_HeadNub
+    100004: casual18_m_highpoly:_notused_Bip01_L_Finger0Nub
+    100006: casual18_m_highpoly:_notused_Bip01_L_Finger1Nub
+    100008: casual18_m_highpoly:_notused_Bip01_L_Finger2Nub
+    100010: casual18_m_highpoly:_notused_Bip01_L_Finger3Nub
+    100012: casual18_m_highpoly:_notused_Bip01_L_Finger4Nub
+    100014: casual18_m_highpoly:_notused_Bip01_L_Toe0Nub
+    100016: casual18_m_highpoly:_notused_Bip01_R_Finger0Nub
+    100018: casual18_m_highpoly:_notused_Bip01_R_Finger1Nub
+    100020: casual18_m_highpoly:_notused_Bip01_R_Finger2Nub
+    100022: casual18_m_highpoly:_notused_Bip01_R_Finger3Nub
+    100024: casual18_m_highpoly:_notused_Bip01_R_Finger4Nub
+    100026: casual18_m_highpoly:_notused_Bip01_R_Toe0Nub
+    100028: casual18_m_highpoly:Bip01
+    100030: casual18_m_highpoly:Bip01_Footsteps
+    100032: casual18_m_highpoly:Bip01_Head
+    100034: casual18_m_highpoly:Bip01_L_Calf
+    100036: casual18_m_highpoly:Bip01_L_Clavicle
+    100038: casual18_m_highpoly:Bip01_L_Finger0
+    100040: casual18_m_highpoly:Bip01_L_Finger01
+    100042: casual18_m_highpoly:Bip01_L_Finger1
+    100044: casual18_m_highpoly:Bip01_L_Finger11
+    100046: casual18_m_highpoly:Bip01_L_Finger2
+    100048: casual18_m_highpoly:Bip01_L_Finger21
+    100050: casual18_m_highpoly:Bip01_L_Finger3
+    100052: casual18_m_highpoly:Bip01_L_Finger31
+    100054: casual18_m_highpoly:Bip01_L_Finger4
+    100056: casual18_m_highpoly:Bip01_L_Finger41
+    100058: casual18_m_highpoly:Bip01_L_Foot
+    100060: casual18_m_highpoly:Bip01_L_Forearm
+    100062: casual18_m_highpoly:Bip01_L_Hand
+    100064: casual18_m_highpoly:Bip01_L_Thigh
+    100066: casual18_m_highpoly:Bip01_L_Toe0
+    100068: casual18_m_highpoly:Bip01_L_UpperArm
+    100070: casual18_m_highpoly:Bip01_Neck
+    100072: casual18_m_highpoly:Bip01_Pelvis
+    100074: casual18_m_highpoly:Bip01_R_Calf
+    100076: casual18_m_highpoly:Bip01_R_Clavicle
+    100078: casual18_m_highpoly:Bip01_R_Finger0
+    100080: casual18_m_highpoly:Bip01_R_Finger01
+    100082: casual18_m_highpoly:Bip01_R_Finger1
+    100084: casual18_m_highpoly:Bip01_R_Finger11
+    100086: casual18_m_highpoly:Bip01_R_Finger2
+    100088: casual18_m_highpoly:Bip01_R_Finger21
+    100090: casual18_m_highpoly:Bip01_R_Finger3
+    100092: casual18_m_highpoly:Bip01_R_Finger31
+    100094: casual18_m_highpoly:Bip01_R_Finger4
+    100096: casual18_m_highpoly:Bip01_R_Finger41
+    100098: casual18_m_highpoly:Bip01_R_Foot
+    100100: casual18_m_highpoly:Bip01_R_Forearm
+    100102: casual18_m_highpoly:Bip01_R_Hand
+    100104: casual18_m_highpoly:Bip01_R_Thigh
+    100106: casual18_m_highpoly:Bip01_R_Toe0
+    100108: casual18_m_highpoly:Bip01_R_UpperArm
+    100110: casual18_m_highpoly:Bip01_Spine
+    100112: casual18_m_highpoly:Bip01_Spine1
+    100114: casual18_m_highpoly:Bip01_Spine2
+    100116: casual18_m_highpoly:Camera01
+    100118: casual18_m_highpoly:Camera01_Target
+    100120: casual18_m_highpoly:casual18_m_highpoly
+    400000: //RootNode
+    400002: casual18_m_highpoly:_notused_Bip01_HeadNub
+    400004: casual18_m_highpoly:_notused_Bip01_L_Finger0Nub
+    400006: casual18_m_highpoly:_notused_Bip01_L_Finger1Nub
+    400008: casual18_m_highpoly:_notused_Bip01_L_Finger2Nub
+    400010: casual18_m_highpoly:_notused_Bip01_L_Finger3Nub
+    400012: casual18_m_highpoly:_notused_Bip01_L_Finger4Nub
+    400014: casual18_m_highpoly:_notused_Bip01_L_Toe0Nub
+    400016: casual18_m_highpoly:_notused_Bip01_R_Finger0Nub
+    400018: casual18_m_highpoly:_notused_Bip01_R_Finger1Nub
+    400020: casual18_m_highpoly:_notused_Bip01_R_Finger2Nub
+    400022: casual18_m_highpoly:_notused_Bip01_R_Finger3Nub
+    400024: casual18_m_highpoly:_notused_Bip01_R_Finger4Nub
+    400026: casual18_m_highpoly:_notused_Bip01_R_Toe0Nub
+    400028: casual18_m_highpoly:Bip01
+    400030: casual18_m_highpoly:Bip01_Footsteps
+    400032: casual18_m_highpoly:Bip01_Head
+    400034: casual18_m_highpoly:Bip01_L_Calf
+    400036: casual18_m_highpoly:Bip01_L_Clavicle
+    400038: casual18_m_highpoly:Bip01_L_Finger0
+    400040: casual18_m_highpoly:Bip01_L_Finger01
+    400042: casual18_m_highpoly:Bip01_L_Finger1
+    400044: casual18_m_highpoly:Bip01_L_Finger11
+    400046: casual18_m_highpoly:Bip01_L_Finger2
+    400048: casual18_m_highpoly:Bip01_L_Finger21
+    400050: casual18_m_highpoly:Bip01_L_Finger3
+    400052: casual18_m_highpoly:Bip01_L_Finger31
+    400054: casual18_m_highpoly:Bip01_L_Finger4
+    400056: casual18_m_highpoly:Bip01_L_Finger41
+    400058: casual18_m_highpoly:Bip01_L_Foot
+    400060: casual18_m_highpoly:Bip01_L_Forearm
+    400062: casual18_m_highpoly:Bip01_L_Hand
+    400064: casual18_m_highpoly:Bip01_L_Thigh
+    400066: casual18_m_highpoly:Bip01_L_Toe0
+    400068: casual18_m_highpoly:Bip01_L_UpperArm
+    400070: casual18_m_highpoly:Bip01_Neck
+    400072: casual18_m_highpoly:Bip01_Pelvis
+    400074: casual18_m_highpoly:Bip01_R_Calf
+    400076: casual18_m_highpoly:Bip01_R_Clavicle
+    400078: casual18_m_highpoly:Bip01_R_Finger0
+    400080: casual18_m_highpoly:Bip01_R_Finger01
+    400082: casual18_m_highpoly:Bip01_R_Finger1
+    400084: casual18_m_highpoly:Bip01_R_Finger11
+    400086: casual18_m_highpoly:Bip01_R_Finger2
+    400088: casual18_m_highpoly:Bip01_R_Finger21
+    400090: casual18_m_highpoly:Bip01_R_Finger3
+    400092: casual18_m_highpoly:Bip01_R_Finger31
+    400094: casual18_m_highpoly:Bip01_R_Finger4
+    400096: casual18_m_highpoly:Bip01_R_Finger41
+    400098: casual18_m_highpoly:Bip01_R_Foot
+    400100: casual18_m_highpoly:Bip01_R_Forearm
+    400102: casual18_m_highpoly:Bip01_R_Hand
+    400104: casual18_m_highpoly:Bip01_R_Thigh
+    400106: casual18_m_highpoly:Bip01_R_Toe0
+    400108: casual18_m_highpoly:Bip01_R_UpperArm
+    400110: casual18_m_highpoly:Bip01_Spine
+    400112: casual18_m_highpoly:Bip01_Spine1
+    400114: casual18_m_highpoly:Bip01_Spine2
+    400116: casual18_m_highpoly:Camera01
+    400118: casual18_m_highpoly:Camera01_Target
+    400120: casual18_m_highpoly:casual18_m_highpoly
+    4300000: casual18_m_highpoly:casual18_m_highpoly
+    9500000: //RootNode
+    13700000: casual18_m_highpoly:casual18_m_highpoly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: casual18_m_highpoly:Bip01_Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_L_Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: casual18_m_highpoly:Bip01_R_Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 18(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01
+      position: {x: 0, y: 0, z: 0.883963}
+      rotation: {x: 0, y: 0, z: 0.7071063, w: 0.7071073}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Footsteps
+      position: {x: -0, y: 0, z: -0.883891}
+      rotation: {x: 0, y: -0, z: -0.7071063, w: 0.7071073}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Pelvis
+      position: {x: 0.9104088, y: 0.0000012480856, z: -0.88396305}
+      rotation: {x: -0.0000005066394, y: 0.70710796, z: 0.7071057, w: -0.0000005066394}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Spine
+      position: {x: -0.13050999, y: -0.029207, z: 0}
+      rotation: {x: -0.000002076674, y: 0.00000067277864, z: -0.00039816194, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Spine1
+      position: {x: -0.153964, y: -0.00012299999, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Spine2
+      position: {x: -0.153964, y: -0.00012299999, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Neck
+      position: {x: -0.153966, y: -0.000082, z: 0}
+      rotation: {x: 5.2454285e-10, y: 0.00000005235725, z: -0.010018031, w: 0.9999498}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Clavicle
+      position: {x: 0.008246, y: -0.005722, z: -0.039165}
+      rotation: {x: 0.6684586, y: 0.0069622006, z: 0.7436764, w: -0.007747688}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_UpperArm
+      position: {x: -0.145397, y: 0, z: 0}
+      rotation: {x: -0.023575988, y: -0.028832119, z: -0.004898599, w: 0.9992943}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Forearm
+      position: {x: -0.280821, y: 0, z: 0}
+      rotation: {x: 0.0019086895, y: -0.016424328, z: 0.040102538, w: 0.9990587}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Hand
+      position: {x: -0.283498, y: 0, z: 0}
+      rotation: {x: 0.7061338, y: -0.024996206, z: -0.031275988, w: 0.7069456}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger0
+      position: {x: -0.030411998, y: 0.018544, z: 0.042679}
+      rotation: {x: -0.5363167, y: 0.32987136, z: 0.20405397, w: 0.7496075}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger01
+      position: {x: -0.054734, y: 0, z: 0}
+      rotation: {x: 0.000000089406925, y: 0.00000086426695, z: -0.031417683, w: 0.99950635}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_R_Finger0Nub
+      position: {x: -0.040502, y: 0, z: 0}
+      rotation: {x: -0.000000052359876, y: -2.2846306e-15, z: 1, w: -0.000000043633232}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger4
+      position: {x: -0.096388996, y: -0.003431, z: -0.033744}
+      rotation: {x: -0.0037830593, y: 0.016411241, z: -0.04560436, w: 0.9988176}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger41
+      position: {x: -0.035436, y: 0, z: 0}
+      rotation: {x: 0.000000016763803, y: 0.000000041909505, z: -0.028285846, w: 0.9995999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_R_Finger4Nub
+      position: {x: -0.042048, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000043633232}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger1
+      position: {x: -0.094277, y: 0.00122, z: 0.033041}
+      rotation: {x: 0.012712347, y: 0.05926181, z: -0.06050333, w: 0.9963262}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger11
+      position: {x: -0.048597, y: 0, z: 0}
+      rotation: {x: -0.0000000018626443, y: 0.00000021234145, z: -0.030065224, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_R_Finger1Nub
+      position: {x: -0.058864, y: 0, z: 0}
+      rotation: {x: -0.000000008726646, y: 3.8077178e-16, z: 1, w: 0.000000043633232}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger2
+      position: {x: -0.096444994, y: -0.003635, z: 0.011153}
+      rotation: {x: 0.0059474637, y: 0.03408901, z: -0.055811744, w: 0.9978415}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger21
+      position: {x: -0.055184, y: 0, z: 0}
+      rotation: {x: -0.00000013597308, y: 0.000000456348, z: -0.028221011, w: 0.9996017}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_R_Finger2Nub
+      position: {x: -0.059053, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000043633232}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger3
+      position: {x: -0.097105, y: -0.0055879997, z: -0.011297}
+      rotation: {x: -0.0015821249, y: 0.019731151, z: -0.04811965, w: 0.9986455}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Finger31
+      position: {x: -0.048304, y: 0, z: 0}
+      rotation: {x: 0.00000003725289, y: 0.00000042375163, z: -0.027503835, w: 0.9996217}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_R_Finger3Nub
+      position: {x: -0.054063, y: 0, z: 0}
+      rotation: {x: -0, y: 0, z: 1, w: -0.000000043633232}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Clavicle
+      position: {x: 0.008246, y: -0.005722, z: 0.039165}
+      rotation: {x: -0.66845864, y: -0.00696424, z: 0.7436764, w: -0.0077458085}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_UpperArm
+      position: {x: -0.145397, y: 0, z: 0}
+      rotation: {x: 0.023576397, y: 0.028833928, z: -0.0048973295, w: 0.99929416}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Forearm
+      position: {x: -0.280821, y: 0, z: 0}
+      rotation: {x: -0.0019088394, y: 0.016424656, z: 0.04010275, w: 0.9990587}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Hand
+      position: {x: -0.283498, y: 0, z: 0}
+      rotation: {x: -0.7061338, y: 0.024996212, z: -0.031276032, w: 0.7069456}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger0
+      position: {x: -0.030411998, y: 0.018544, z: -0.042679}
+      rotation: {x: 0.53631675, y: -0.32987183, z: 0.20405439, w: 0.74960715}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger01
+      position: {x: -0.054734, y: 0, z: 0}
+      rotation: {x: -0.000000093132236, y: 0.00000022351736, z: -0.03141725, w: 0.9995064}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_L_Finger0Nub
+      position: {x: -0.040502, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger4
+      position: {x: -0.096388996, y: -0.003431, z: 0.033744}
+      rotation: {x: 0.003783248, y: -0.016411372, z: -0.045604475, w: 0.9988176}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger41
+      position: {x: -0.035436, y: 0, z: 0}
+      rotation: {x: -0.000000012689268, y: 0.00000012293457, z: -0.028286725, w: 0.9995999}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_L_Finger4Nub
+      position: {x: -0.042048, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger1
+      position: {x: -0.094277, y: 0.00122, z: -0.033041}
+      rotation: {x: -0.012712045, y: -0.059261806, z: -0.060504857, w: 0.9963261}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger11
+      position: {x: -0.048597, y: 0, z: 0}
+      rotation: {x: -0.00000010756773, y: 0.00000036135307, z: -0.030065238, w: 0.99954796}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_L_Finger1Nub
+      position: {x: -0.058863, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger2
+      position: {x: -0.096444994, y: -0.003635, z: -0.011153}
+      rotation: {x: -0.005947276, y: -0.03408857, z: -0.055812553, w: 0.9978415}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger21
+      position: {x: -0.055184, y: 0, z: 0}
+      rotation: {x: -0.00000004307366, y: 0.00000015273686, z: -0.028220713, w: 0.9996017}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_L_Finger2Nub
+      position: {x: -0.059053, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger3
+      position: {x: -0.097105, y: -0.0055879997, z: 0.011297}
+      rotation: {x: 0.0015824027, y: -0.019731006, z: -0.048120547, w: 0.99864537}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Finger31
+      position: {x: -0.048304, y: 0, z: 0}
+      rotation: {x: 0.000000016996632, y: 0.00000036135302, z: -0.027501041, w: 0.9996218}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_L_Finger3Nub
+      position: {x: -0.054063, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.000000008726646, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_Head
+      position: {x: -0.103006, y: 0, z: 0}
+      rotation: {x: 0.000000004574951, y: 0.000000113354126, z: -0.040326983, w: 0.9991866}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_HeadNub
+      position: {x: -0.220306, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Thigh
+      position: {x: 0.130487, y: 0.029310998, z: -0.08520199}
+      rotation: {x: 0.0029779365, y: 0.99954945, z: -0.00058633223, w: -0.029862162}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Calf
+      position: {x: -0.389784, y: 0, z: 0}
+      rotation: {x: -0.0000000011808021, y: 0.000000017413303, z: 0.06765498, w: 0.9977088}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Foot
+      position: {x: -0.42213798, y: 0, z: 0}
+      rotation: {x: 0.05907993, y: -0.03408919, z: -0.069016136, w: 0.995281}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_R_Toe0
+      position: {x: -0.077676, y: 0.12389, z: 0}
+      rotation: {x: 0.000000024682683, y: 3.4463526e-15, z: -0.7071067, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_R_Toe0Nub
+      position: {x: -0.084419, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Thigh
+      position: {x: 0.130487, y: 0.029310998, z: 0.08520199}
+      rotation: {x: 0.0029801105, y: 0.99954945, z: 0.000589117, w: 0.029862197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Calf
+      position: {x: -0.389784, y: 0, z: 0}
+      rotation: {x: -0.0000000011807295, y: 0.00000001741331, z: 0.06765082, w: 0.9977091}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Foot
+      position: {x: -0.42213798, y: 0, z: 0}
+      rotation: {x: -0.059079934, y: 0.034089074, z: -0.06901401, w: 0.99528116}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Bip01_L_Toe0
+      position: {x: -0.077676, y: 0.12389, z: 0}
+      rotation: {x: -0.0000000431947, y: 0.000000018512004, z: -0.70710665, w: 0.70710695}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:_notused_Bip01_L_Toe0Nub
+      position: {x: -0.084419, y: 0, z: 0}
+      rotation: {x: -0, y: 0, z: 1, w: -0.000000043633232}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Camera01
+      position: {x: 1.599484, y: -3.4491308, z: 0.91988194}
+      rotation: {x: 0.59237033, y: -0.38613132, z: -0.381481, w: 0.5953757}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:Camera01_Target
+      position: {x: 0.064783, y: -0.042655, z: 0.890625}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: casual18_m_highpoly:casual18_m_highpoly
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

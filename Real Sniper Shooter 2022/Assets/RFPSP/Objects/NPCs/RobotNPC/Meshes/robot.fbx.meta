@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 82fbe454bd119c44d0009d298d76c639
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: elbow_L
+  - first:
+      1: 100002
+    second: elbow_R
+  - first:
+      1: 100004
+    second: finger1_L
+  - first:
+      1: 100006
+    second: finger1_R
+  - first:
+      1: 100008
+    second: finger2_L
+  - first:
+      1: 100010
+    second: finger2_R
+  - first:
+      1: 100012
+    second: finger3e_L
+  - first:
+      1: 100014
+    second: finger3e_R
+  - first:
+      1: 100016
+    second: gun
+  - first:
+      1: 100018
+    second: gun_model
+  - first:
+      1: 100020
+    second: hand_L
+  - first:
+      1: 100022
+    second: hand_R
+  - first:
+      1: 100024
+    second: head
+  - first:
+      1: 100026
+    second: heade
+  - first:
+      1: 100028
+    second: heel_L
+  - first:
+      1: 100030
+    second: heel_R
+  - first:
+      1: 100032
+    second: joint1
+  - first:
+      1: 100034
+    second: joint1 1
+  - first:
+      1: 100036
+    second: joint2
+  - first:
+      1: 100038
+    second: joint2 1
+  - first:
+      1: 100040
+    second: lowarm_L
+  - first:
+      1: 100042
+    second: lowarm_R
+  - first:
+      1: 100044
+    second: lowleg_L
+  - first:
+      1: 100046
+    second: lowleg_R
+  - first:
+      1: 100048
+    second: neck
+  - first:
+      1: 100050
+    second: //RootNode
+  - first:
+      1: 100052
+    second: robotskin1
+  - first:
+      1: 100054
+    second: roothandle
+  - first:
+      1: 100056
+    second: shoulder_L
+  - first:
+      1: 100058
+    second: shoulder_R
+  - first:
+      1: 100060
+    second: spine1
+  - first:
+      1: 100062
+    second: spine2
+  - first:
+      1: 100064
+    second: spine3
+  - first:
+      1: 100066
+    second: spine4
+  - first:
+      1: 100068
+    second: thumb1_L
+  - first:
+      1: 100070
+    second: thumb1_R
+  - first:
+      1: 100072
+    second: thumb2_L
+  - first:
+      1: 100074
+    second: thumb2_R
+  - first:
+      1: 100076
+    second: thumb3e_L
+  - first:
+      1: 100078
+    second: thumb3e_R
+  - first:
+      1: 100080
+    second: uparm_L
+  - first:
+      1: 100082
+    second: uparm_R
+  - first:
+      1: 100084
+    second: upleg_L
+  - first:
+      1: 100086
+    second: upleg_R
+  - first:
+      4: 400000
+    second: elbow_L
+  - first:
+      4: 400002
+    second: elbow_R
+  - first:
+      4: 400004
+    second: finger1_L
+  - first:
+      4: 400006
+    second: finger1_R
+  - first:
+      4: 400008
+    second: finger2_L
+  - first:
+      4: 400010
+    second: finger2_R
+  - first:
+      4: 400012
+    second: finger3e_L
+  - first:
+      4: 400014
+    second: finger3e_R
+  - first:
+      4: 400016
+    second: gun
+  - first:
+      4: 400018
+    second: gun_model
+  - first:
+      4: 400020
+    second: hand_L
+  - first:
+      4: 400022
+    second: hand_R
+  - first:
+      4: 400024
+    second: head
+  - first:
+      4: 400026
+    second: heade
+  - first:
+      4: 400028
+    second: heel_L
+  - first:
+      4: 400030
+    second: heel_R
+  - first:
+      4: 400032
+    second: joint1
+  - first:
+      4: 400034
+    second: joint1 1
+  - first:
+      4: 400036
+    second: joint2
+  - first:
+      4: 400038
+    second: joint2 1
+  - first:
+      4: 400040
+    second: lowarm_L
+  - first:
+      4: 400042
+    second: lowarm_R
+  - first:
+      4: 400044
+    second: lowleg_L
+  - first:
+      4: 400046
+    second: lowleg_R
+  - first:
+      4: 400048
+    second: neck
+  - first:
+      4: 400050
+    second: //RootNode
+  - first:
+      4: 400052
+    second: robotskin1
+  - first:
+      4: 400054
+    second: roothandle
+  - first:
+      4: 400056
+    second: shoulder_L
+  - first:
+      4: 400058
+    second: shoulder_R
+  - first:
+      4: 400060
+    second: spine1
+  - first:
+      4: 400062
+    second: spine2
+  - first:
+      4: 400064
+    second: spine3
+  - first:
+      4: 400066
+    second: spine4
+  - first:
+      4: 400068
+    second: thumb1_L
+  - first:
+      4: 400070
+    second: thumb1_R
+  - first:
+      4: 400072
+    second: thumb2_L
+  - first:
+      4: 400074
+    second: thumb2_R
+  - first:
+      4: 400076
+    second: thumb3e_L
+  - first:
+      4: 400078
+    second: thumb3e_R
+  - first:
+      4: 400080
+    second: uparm_L
+  - first:
+      4: 400082
+    second: uparm_R
+  - first:
+      4: 400084
+    second: upleg_L
+  - first:
+      4: 400086
+    second: upleg_R
+  - first:
+      23: 2300000
+    second: gun_model
+  - first:
+      33: 3300000
+    second: gun_model
+  - first:
+      43: 4300000
+    second: robotskin1
+  - first:
+      43: 4300002
+    second: gun_model
+  - first:
+      74: 7400002
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: robotskin1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 7400002
+      firstFrame: 1
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robotskin1
+        weight: 1
+      - path: roothandle
+        weight: 1
+      - path: roothandle/spine1
+        weight: 1
+      - path: roothandle/spine1/spine2
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L/finger1_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L/finger1_L/finger2_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L/finger1_L/finger2_L/finger3e_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L/thumb1_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_L/uparm_L/elbow_L/lowarm_L/hand_L/thumb1_L/thumb2_L/thumb3e_L
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/finger1_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/finger1_R/finger2_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/finger1_R/finger2_R/finger3e_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/gun
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/gun/gun_model
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/thumb1_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/shoulder_R/uparm_R/elbow_R/lowarm_R/hand_R/thumb1_R/thumb2_R/thumb3e_R
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/spine4/neck
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/spine4/neck/head
+        weight: 1
+      - path: roothandle/spine1/spine2/spine3/spine4/neck/head/heade
+        weight: 1
+      - path: roothandle/upleg_L
+        weight: 1
+      - path: roothandle/upleg_L/lowleg_L
+        weight: 1
+      - path: roothandle/upleg_L/lowleg_L/heel_L
+        weight: 1
+      - path: roothandle/upleg_L/lowleg_L/heel_L/joint1
+        weight: 1
+      - path: roothandle/upleg_L/lowleg_L/heel_L/joint1/joint2
+        weight: 1
+      - path: roothandle/upleg_R
+        weight: 1
+      - path: roothandle/upleg_R/lowleg_R
+        weight: 1
+      - path: roothandle/upleg_R/lowleg_R/heel_R
+        weight: 1
+      - path: roothandle/upleg_R/lowleg_R/heel_R/joint1 1
+        weight: 1
+      - path: roothandle/upleg_R/lowleg_R/heel_R/joint1 1/joint2 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 285c9943bd11ac44d0009d298d76c639
+  - 6a344666bd11ac44d0009d298d76c639
+  - a877b388bd11ac44d0009d298d76c639
+  - 2c6d0c89bd11ac44d0009d298d76c639
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
