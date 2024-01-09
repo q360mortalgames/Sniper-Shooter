@@ -19,8 +19,7 @@
 *.jpg
 *.tif
 *.pdf
-*.cubemap
-*.rtf
+
 
 
 # Ignore generic 3D model files
