@@ -17,10 +17,6 @@
 *.unity
 *.bmp
 *.jpg
-*.tif
-
-
-
 
 # Ignore generic 3D model files
 *.fbx
