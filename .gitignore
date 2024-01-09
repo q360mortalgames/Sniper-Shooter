@@ -16,7 +16,7 @@
 *.psd
 *.unity
 *.bmp
-*.jpg
+
 
 # Ignore generic 3D model files
 *.fbx
