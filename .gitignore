@@ -2,9 +2,7 @@
 .vscode/
 
 # Ignore Visual Studio files
-*.suo
-*.lock
-*.ide
+
 
 # Ignore Unity files
 
@@ -15,10 +13,8 @@
 
 
 
-
-
 # Ignore generic 3D model files
-*.fbx
+
 
 # Ignore any file with a .lock extension
 *.lock
