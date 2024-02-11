@@ -475,7 +475,7 @@ public class MeshBrushEditor : Editor
 
             //Draw the custom sampled reference slope vector in the scene view (given that the user wants it to appear and he is actually using the slope filter at all)...
             if (_mp.showRefVecInSceneGUI == true && _mp.manualRefVecSampling == true && _mp.activeSlopeFilter == true)
-                Handles.ArrowCap(0, _mp.slopeRefVec_HandleLocation, Quaternion.LookRotation(_mp.slopeRefVec), 0.9f);
+                Handles.ArrowHandleCap(0, _mp.slopeRefVec_HandleLocation, Quaternion.LookRotation(_mp.slopeRefVec), 0.9f,EventType.Repaint);
         }
     }
     #endregion
@@ -512,7 +512,7 @@ public class MeshBrushEditor : Editor
             if (thisCollider.Raycast(scRay, out scHit, Mathf.Infinity))
             {
                 SceneView.RepaintAll();
-                Handles.ArrowCap(0, scHit.point, Quaternion.LookRotation(scHit.normal), 0.9f); //Draw a GUI handle arrow to represent the vector to sample. 
+                Handles.ArrowHandleCap(0, scHit.point, Quaternion.LookRotation(scHit.normal), 0.9f,EventType.Repaint); //Draw a GUI handle arrow to represent the vector to sample. 
 
                 if (Event.current.type == EventType.KeyDown && Event.current.keyCode == _mp.paint) //Sample the reference vector for the slope filter and store it in the slopeRefVec variable.
                 {

@@ -360,7 +360,7 @@ namespace SWS
                 //draw bezier point handles
                 Vector3 wpPos = point.wp.position;
                 Vector3 newPos = Handles.FreeMoveHandle(wpPos, Quaternion.identity,
-                                    0.7f, Vector3.zero, Handles.SphereCap);
+                                    0.7f, Vector3.zero,null);
 
                 if (wpPos != newPos)
                 {
@@ -379,7 +379,7 @@ namespace SWS
                         Handles.FreeMoveHandle(
                         point.cp[0].position,
                         Quaternion.identity, 0.5f, Vector3.zero,
-                        Handles.SphereCap));
+                       null));
 
                     Undo.RecordObject(point.cp[0], "Move Control Left");
                 }
@@ -389,8 +389,7 @@ namespace SWS
                     PositionOpposite(point, false,
                         Handles.FreeMoveHandle(
                         point.cp[1].position,
-                        Quaternion.identity, 0.5f, Vector3.zero,
-                        Handles.SphereCap));
+                        Quaternion.identity, 0.5f, Vector3.zero,null));
 
                     Undo.RecordObject(point.cp[1], "Move Control Right");
                 }
@@ -412,7 +411,7 @@ namespace SWS
             Vector3[] pathPoints = script.pathPoints;
             for (int i = 0; i < pathPoints.Length; i++)
             {
-                Handles.SphereCap(0, pathPoints[i], Quaternion.identity, 0.25f);
+                Handles.SphereHandleCap(0, pathPoints[i], Quaternion.identity, 0.25f,EventType.Repaint);
             }
         }
 

@@ -334,7 +334,7 @@ namespace SWS
                 Handles.color = m_Color2.colorValue;
                 Vector3 wpPos = waypoints[i].position;
                 Vector3 newPos = Handles.FreeMoveHandle(wpPos, Quaternion.identity,
-                                    0.7f, Vector3.zero, Handles.SphereCap);
+                                    0.7f, Vector3.zero,null);
                 if (wpPos != newPos)
                 {
                     Undo.RecordObject(waypoints[i], "Move Handles");
