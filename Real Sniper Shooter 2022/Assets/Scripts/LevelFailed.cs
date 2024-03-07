@@ -36,6 +36,7 @@ public class LevelFailed : MonoBehaviour {
         }
 
         LevelText.text = "" + PlayerPrefs.GetInt("SelectedLevel");
+        AdsManager.Instance.ShowAd();
     }
 	void ShowAd()
 	{

@@ -87,7 +87,7 @@ public class WeaponSelection : MonoBehaviour
 
     public void Continue()
     {
-        Debug.Log("pIndex" + pIndex);
+        Debug.Log($"pIndex { pIndex}, {PlayerPrefs.GetString("PWepStatus" + pIndex)} ");
         if (PlayerPrefs.GetString("PWepStatus" + pIndex) == "Unlocked")
         {
             PlayerPrefs.SetInt("SelWeapon1", pIndex);

@@ -12,13 +12,10 @@ public class Trackstweener : MonoBehaviour {
 
 	public GameObject[] fromDown_obj;
 
-
-
-
     private int val = 800;
 	// Use this for initialization
 	void OnEnable () {
-
+		
 		float delayVal = 0.2f;
 		foreach (GameObject gob in movefrom_obj) {
 			if(gob!=null)
@@ -57,10 +54,5 @@ public class Trackstweener : MonoBehaviour {
 				iTween.MoveFrom (gob, iTween.Hash ("x", gob.transform.position.x + 1200, "time", 0.5f, "delay", delayVal, "easetype", iTween.EaseType.spring));
 			delayVal += 0.2f;
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

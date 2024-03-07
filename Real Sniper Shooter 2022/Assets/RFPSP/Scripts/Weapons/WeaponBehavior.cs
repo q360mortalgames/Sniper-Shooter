@@ -820,6 +820,7 @@ public class WeaponBehavior : MonoBehaviour {
 			//from reloading position to allow smooth anims when single bullet reloading is cancelled by sprinting.
 			//The "Neutral" animation's wrap mode also needs to be set to "clamp forever" in the animation import settings. 
 			if(bulletsToReload != bulletsPerClip){
+				if(WeaponAnimationComponent["Neutral"]!=null)
 				WeaponAnimationComponent["Neutral"].speed = 1.4f;
 
 

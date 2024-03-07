@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,8 +7,26 @@ public class Store : MonoBehaviour {
 
     public GameObject Menupanel;
     public Text cashText;
-	// Use this for initialization
-	void Start ()
+
+    private void OnEnable()
+    {
+        // Subscribe to the event when the script is enabled
+        IAPPurchaseComplete.OnEventTriggered += HandleEvent;
+    }
+
+    private void HandleEvent(object sender, EventArgs e)
+    {
+        cashText.text = "" + PlayerPrefs.GetInt("TotalMoney");
+    }
+
+    private void OnDisable()
+    {
+        // Unsubscribe from the event when the script is disabled
+        IAPPurchaseComplete.OnEventTriggered -= HandleEvent;
+    }
+
+    // Use this for initialization
+    void Start ()
     {
         cashText.text = "" + PlayerPrefs.GetInt("TotalMoney");
 
@@ -23,7 +42,6 @@ public class Store : MonoBehaviour {
 		if (AudioManager.instance) {
 			AudioManager.instance.PlaySound (3);
 		}
-        Time.timeScale = 1;
         Menupanel.SetActive(true);
         gameObject.SetActive(false);
 

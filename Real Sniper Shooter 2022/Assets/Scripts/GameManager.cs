@@ -339,23 +339,25 @@ public void ShowMission(bool show)
     }
 	public void saveAndResume()
 	{
-		#if UNITY_EDITOR
-		FPSPlayer.instance.hitPoints = FPSPlayer.instance.maximumHitPoints*0.5f;
-		SavePopUp.SetActive (false);
-		Time.timeScale = 1;
-		FadeImage.gameObject.SetActive (false);
-		UpdateHealth ();
-#endif
-
+//		#if UNITY_EDITOR
+//		FPSPlayer.instance.hitPoints = FPSPlayer.instance.maximumHitPoints*0.5f;
+//		SavePopUp.SetActive (false);
+//		Time.timeScale = 1;
+//		FadeImage.gameObject.SetActive (false);
+//		UpdateHealth ();
+//#endif
 
 		//     AdManager.instance.showRewardVideo();
-	//	AdManager.instance.ShowUnityAd();
-                FPSPlayer.instance.hitPoints = FPSPlayer.instance.maximumHitPoints * 0.5f;
-                SavePopUp.SetActive(false);
-                Time.timeScale = 1;
-                FadeImage.gameObject.SetActive(false);
-                UpdateHealth();
-           
+		//	AdManager.instance.ShowUnityAd();
+
+		AdsManagerRwd.Instance.ShowRewardedAd((bool status) => {
+			FPSPlayer.instance.hitPoints = FPSPlayer.instance.maximumHitPoints * 0.5f;
+			SavePopUp.SetActive(false);
+			Time.timeScale = 1;
+			FadeImage.gameObject.SetActive(false);
+			UpdateHealth();
+		});
+
          // venkat
         /*
 		if (Advertisement.IsReady ("rewardedVideo")) {
@@ -536,5 +538,26 @@ public void ShowMission(bool show)
 
         }
 			
+	}
+
+	public static void ShowToast(string message)
+	{
+#if UNITY_ANDROID && !UNITY_EDITOR
+		try
+		{
+			// Create an Android Java object
+			AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+			AndroidJavaObject currentActivity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+
+			// Show a toast message using Android's Toast class
+			AndroidJavaClass toastClass = new AndroidJavaClass("android.widget.Toast");
+			AndroidJavaObject toastObject = toastClass.CallStatic<AndroidJavaObject>("makeText", currentActivity, message, 0);
+			toastObject.Call("show");
+		}
+		catch
+		{ }
+#else
+            Debug.Log(message);
+#endif
 	}
 }

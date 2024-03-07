@@ -42,8 +42,8 @@ public class LevelComplete : MonoBehaviour {
 		PlayerPrefs.SetInt ("TotalMoney", PlayerPrefs.GetInt ("TotalMoney") + LevelReward [selLevel - 1] + LevelBonus [selLevel - 1]);
 //		iTween.MoveFrom (ScoreBoard, iTween.Hash ("x", ScoreBoard.transform.position.x + 1500, "time", 0.5f, "eastype", iTween.EaseType.easeInCubic));
 		iTween.ScaleFrom (ScoreBoard, iTween.Hash ("scale", new Vector3(0,0,0), "time", 1f, "eastype", iTween.EaseType.easeInCubic));
+		AdsManager.Instance.ShowAd();
 
-	
 	}
 	public void mGames()
 	{

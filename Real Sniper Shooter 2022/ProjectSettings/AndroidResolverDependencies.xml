@@ -1,13 +1,13 @@
 <dependencies>
   <packages>
     <package>com.google.android.gms:play-services-ads:22.5.0</package>
+    <package>com.google.android.play:core-common:2.0.0</package>
     <package>com.google.android.ump:user-messaging-platform:2.1.0</package>
-    <package>com.yodo1.mas:full:4.6.6</package>
   </packages>
   <files />
   <settings>
     <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
-    <setting name="bundleId" value="com.tenstarfreegames.realsnipershooter" />
+    <setting name="bundleId" value="com.mortalgames.snipershooter2022" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="True" />

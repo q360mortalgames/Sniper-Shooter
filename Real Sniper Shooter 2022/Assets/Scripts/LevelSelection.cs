@@ -76,7 +76,7 @@ public class LevelSelection : MonoBehaviour
     //    yield return new WaitForSeconds(1);
     //    LoadingPage.SetActive(false);
     //    EnvironmentSel.SetActive(false);
-        
+
     //}
     IEnumerator OpenLevelSel()
     {
@@ -89,7 +89,8 @@ public class LevelSelection : MonoBehaviour
     }
     public void GotoEnvirment()
     {
-        StartCoroutine("OpenEnvironmentSel");
+        //  StartCoroutine("OpenEnvironmentSel");
+        Back();
     }
     public void GotoModel()
     {
