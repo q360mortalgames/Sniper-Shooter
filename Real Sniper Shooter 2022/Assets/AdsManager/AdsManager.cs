@@ -27,6 +27,9 @@ public class AdsManager : MonoBehaviour
 
         mShowAds = PlayerPrefs.GetInt("NO_ADS") == 0;
 
+        //var adss= MobileAds.GetRequestConfiguration();
+        //adss.TestDeviceIds = new List<string> { (SystemInfo.deviceUniqueIdentifier) };
+        //MobileAds.SetRequestConfiguration(adss);
         MobileAds.Initialize((InitializationStatus initStatus) =>
         {
             if(mShowAds)
@@ -62,6 +65,7 @@ public class AdsManager : MonoBehaviour
         // create our request used to load the ad.
         var adRequest = new AdRequest.Builder()
                 .Build();
+
 
         // send the request to load the ad.
         InterstitialAd.Load(_adUnitId, adRequest,

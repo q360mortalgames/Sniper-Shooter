@@ -73,6 +73,16 @@ public class AdsManagerRwd : MonoBehaviour
         }
     }
 
+    public void ShowRewardedAd()
+    {
+        if (rewardedAd != null && rewardedAd.CanShowAd())
+        {
+            rewardedAd.Show((Reward reward) =>
+            {
+            });
+        }
+    }
+
 
     private void RegisterEventHandlers(RewardedAd ad)
     {
